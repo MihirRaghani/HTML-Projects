@@ -1,0 +1,794 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.headlineSec h1 {
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    padding: 10px;
+}
+
+.headlineSec {
+    background-color: #067f8c;
+}
+
+.webDetailsSec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.webIcon img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.webIconSec {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+
+.webIconText h1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.webIconTitle {
+    color: #ff5f42;
+
+}
+
+.webIconSubTitle h1 {
+    font-weight: normal;
+    font-size: 20px;
+    padding-left: 10px;
+    color: black;
+}
+
+.contactUsAndSearchSec {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.searchSec input {
+    border: none;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+}
+
+.searchSec input:hover {
+
+    background-color: white;
+    border: 1px, solid, black;
+
+}
+
+.searchIconSec {
+    display: flex;
+    flex-direction: row;
+    background-color: #ff5f42;
+    padding: auto;
+    margin: auto;
+    border-radius: 50px;
+    margin-right: 20px;
+
+}
+
+.searchIcon i {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.searchIconSec:hover {
+    border: 1px, solid, black;
+}
+
+.contactSec {
+    background-color: #ff5f42;
+}
+
+.contactSec h1 {
+
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.contactSec h2 {
+
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.webDetailsSec {
+    border-bottom: 1px solid black;
+}
+
+.navSec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.menusSec {
+    display: flex;
+    flex-direction: row;
+}
+
+.menusSec span {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.icons i {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.icons span {
+    font-size: 20px;
+}
+
+.slideImg img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+
+}
+
+.slideImg {
+    position: relative;
+}
+
+.sliderImgTxtSec {
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 20%;
+    scale: 1.2;
+    left: 20%;
+}
+
+.sliderImgTxtSec h1 {
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    font-size: 50px;
+}
+
+.sliderImgTxtSec h2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: normal;
+    display: inline-block;
+    background-color: #ff5f42;
+
+}
+
+.imgSec1 {
+    position: relative;
+}
+
+.subText {
+    position: absolute;
+    top: 0;
+}
+
+
+.imgSec1 img {
+    filter: brightness(40%);
+    height: 500px;
+    width: 350px;
+    object-fit: cover;
+}
+
+.subText h1 {
+    margin-top: 160px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.subText hr {
+    margin-left: 55px;
+    margin-bottom: 20px;
+    border: 1px, solid, white;
+    width: 50px;
+}
+
+.subText h2 {
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-weight: normal;
+    color: white;
+}
+
+
+.subText h3 {
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.subText h4 {
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-weight: normal;
+    display: inline-block;
+    background-color: #ff5f42;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.threePicSec {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.imgSec2 {
+    position: relative;
+}
+
+.subtext1 {
+    position: absolute;
+    top: 0;
+}
+
+.subtext1 h1 {
+    margin-top: 300px;
+    margin-left: 70px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.imgSec2 img {
+    filter: brightness(70%);
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.subtext1 h2 {
+    margin-left: 70px;
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.subtext1 h3 {
+    margin-left: 70px;
+    font-weight: normal;
+    font-size: 20px;
+    background-color: #ff5f42;
+    display: inline-block;
+    padding-inline: 20px;
+    padding-block: 10px;
+
+}
+
+.imgSec3 {
+    position: relative;
+}
+
+.subText2 {
+    position: absolute;
+    top: 0;
+}
+
+.subText2 h1 {
+    margin-top: 300px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+
+.subText2 h2 {
+    margin-left: 50px;
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.imgSec3 img {
+    filter: brightness(60%);
+    height: 500px;
+    width: 250px;
+    object-fit: cover;
+}
+
+
+.subText2 h3 {
+    margin-left: 20px;
+    font-weight: normal;
+    font-size: 20px;
+    background-color: #ff5f42;
+    display: inline-block;
+    padding-inline: 20px;
+    padding-block: 10px;
+}
+
+.twoImgSec {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.img1Sec {
+    position: relative;
+}
+
+.subtextt {
+    position: absolute;
+    top: 0;
+
+}
+
+.subtextt h1 {
+    margin-top: 300px;
+    margin-left: 20px;
+    color: white;
+}
+
+.subtextt h2 {
+    margin-left: 20px;
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.subtextt h3 {
+    margin-left: 20px;
+    font-weight: normal;
+    font-size: 20px;
+    background-color: #ff5f42;
+    display: inline-block;
+    padding-inline: 20px;
+    padding-block: 10px;
+    margin-top: 20px;
+}
+
+.img2Sec {
+    position: relative;
+}
+
+.subtext{
+    position: absolute;
+    top: 0;
+}
+.subtext h1{
+    margin-top: 350px;
+    color: white;
+    margin-left: 20px;
+}
+
+.img1Sec img{
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+    margin-right: 50px;
+}
+
+.img2Sec img{
+    height: 500px;
+    width: 800px;
+    object-fit: cover;
+}
+
+.subtext h2{
+    color: white;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.subtext h3 {
+    margin-left: 20px;
+    display: inline-block;
+    background-color: #ff5f42;
+    font-weight: normal;
+    padding-block: 10px;
+    padding-inline: 20px;
+    margin-top: 20px;
+}
+
+.twoImgSec2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.img1Sec2 {
+    position: relative;
+}
+
+.img1Sec2 img{
+    height: 500px;
+    width: 700px;
+    object-fit: cover;
+    margin-right: 50px;
+}
+
+
+.subtextt2 {
+    position: absolute;
+    top: 0;
+
+}
+
+.subtextt2 h1 {
+    margin-top: 300px;
+    margin-left: 20px;
+    color: white;
+}
+
+.subtextt2 h2 {
+    margin-left: 20px;
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.subtextt2 h3 {
+    margin-left: 20px;
+    font-weight: normal;
+    font-size: 20px;
+    background-color: #ff5f42;
+    display: inline-block;
+    padding-inline: 20px;
+    padding-block: 10px;
+    margin-top: 20px;
+}
+
+.img2Sec2 {
+    position: relative;
+}
+
+.img2Sec2 img{
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.subtext2{
+    position: absolute;
+    top: 0;
+}
+.subtext2 h1
+{
+    margin-top: 350px;
+    color: white;
+    margin-left: 20px;
+}
+
+.subtext2 h2
+{
+    color: white;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.subtext2 h3 
+{
+    margin-left: 20px;
+    display: inline-block;
+    background-color: #ff5f42;
+    font-weight: normal;
+    padding-block: 10px;
+    padding-inline: 20px;
+    margin-top: 20px;
+}
+
+.productHeadline{
+    color: #ff5f42;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.product1 img {
+
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.product12 img {
+
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.product13 img {
+
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.product14 img {
+
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.product15 img {
+
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.productsSec{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    margin-right: 150px;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.productsSec img{
+    padding-left: 20px;
+}
+
+.product1 h1{
+    font-size: 20px;
+}
+
+.product12 h1{
+    font-size: 20px;
+}
+
+.product13 h1{
+    font-size: 20px;
+}
+
+.product14 h1{
+    font-size: 20px;
+}
+
+.product15 h1{
+    font-size: 20px;
+}
+
+
+.product1 h2{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.product12 h2{
+    font-size: 20px;
+    font-weight: normal;
+
+}
+
+.product13 h2{
+    font-size: 20px;
+    font-weight: normal;
+
+}
+
+.product14 h2{
+    font-size: 20px;
+    font-weight: normal;
+
+}
+
+.product15 h2{
+    font-size: 20px;
+    font-weight: normal;
+
+}
+
+.product1 h3{
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding-inline: 40px;
+    margin-top: 10px;
+    padding-block: 10px;
+}
+
+.product12 h3{
+   font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding-inline: 40px;
+    margin-top: 10px;
+    padding-block: 10px;
+
+
+}
+
+.product13 h3{
+     font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding-inline: 40px;
+    margin-top: 10px;
+    padding-block: 10px;
+
+
+}
+
+.product14 h3{
+ font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding-inline: 40px;
+    margin-top: 10px;
+    padding-block: 10px;
+
+
+}
+
+.product15 h3{
+     font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding-inline: 40px;
+    margin-top: 10px;
+    padding-block: 10px;
+
+}
+
+.shopAllButton h1{
+    text-align: center;
+    font-weight: normal;
+    background-color: #ff5f42;
+    display: inline-block;
+    font-size: 20px;
+    padding-block: 5px;
+    padding-inline: 30px;
+    
+}
+
+.shopAllButtonSec {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.logosSec {
+    background-color: #f5f5f5;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logos img{
+    max-width: 100%;
+}
+.productHeadline h1{
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+.headline h1{
+    font-size: 35px;
+    text-align: center;
+    color: #ff5f42;
+    padding-block: 50px;
+}
+
+.footerSec {
+    display: flex;
+    flex-direction: row;
+    background-color:#ff5f42 ;
+}
+
+.one{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.two{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.three{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.four{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.one h2,h3{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-weight: normal;
+    align-content: center;
+}
+.two h2,h3{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.three h2,h3{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.four h2,h3{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 60px;
+    text-align: center;
+}
